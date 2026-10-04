@@ -1,0 +1,22 @@
+{
+  "blender": "3.1.0",
+  "renderer": "CYCLES",
+  "samples": 160,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "hero": "HERO · 青岚流光 · Celadon jar",
+  "materials": 13,
+  "objects": 216,
+  "packed_images": [
+    "mountain.png",
+    "poem.png"
+  ],
+  "camera_main": [
+    2.799999952316284,
+    -16.0,
+    4.650000095367432
+  ],
+  "camera_lens_mm": 58.0
+}

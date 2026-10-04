@@ -1,0 +1,15 @@
+{
+  "name": "dongleya-pottery-studio",
+  "version": "0.2.0",
+  "private": true,
+  "scripts": {
+    "start": "node serve.cjs",
+    "test": "node tests/smoke.cjs",
+    "test:museum": "node tests/museum.cjs",
+    "test:living": "node tests/living.cjs",
+    "test:optics": "node tests/living-optics.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

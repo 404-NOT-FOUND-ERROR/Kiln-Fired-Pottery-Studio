@@ -1,0 +1,56 @@
+/* Shared visual language for the workshop and the gallery. */
+:root{--paper:#141d18;--ink:#e1d6ba;--muted:#aca995;--line:#c1af7e30;--sage:#b8a475;--sage2:#e4d3a6;--gold:#bea471;--glass-edge:#c1af7e38;--glass-tint:#20292088;--studio-serif:Georgia,'Songti SC',SimSun,serif}
+html,body{background:#101713;color:var(--ink)}
+.intro-screen{background:radial-gradient(ellipse at 75% 40%,#69705222,transparent 47%),radial-gradient(ellipse at 16% 90%,#82704912,transparent 45%),#101713}
+.intro-copy h1,.screen h1,.brand strong{font-family:var(--studio-serif);font-weight:400}
+.intro-copy h1{color:#eddfbd}.intro-kicker{color:#b8a475}.intro-lead{line-height:2}
+.intro-visual:before{border-color:#b7a2762b;box-shadow:0 0 0 26px #b7a27606,0 0 0 56px #b7a27604}
+.intro-visual:after{background:#030805aa;filter:blur(20px)}
+.intro-caption{background:#1a241cb3;border-color:var(--line);border-radius:3px;box-shadow:none;color:#cebf98}
+.intro-caption span,.intro-note,.collection-intro{color:#aaa88f}.intro-dots i{background:#5d6553}.intro-dots i.active{background:#b8a475}
+.intro-view canvas{filter:none}
+.app:not(.result-mode){background:radial-gradient(ellipse at 55% 27%,#313c2e35,transparent 60%),#141d18;box-shadow:none;max-width:1600px}
+.app.paint-mode{max-width:none}
+.rail{background:#101713;border-right:1px solid var(--line);color:#c5b997}.brand strong{color:#e7d8b4}.rail-copy,.rail-note{color:#aaa992}.steps li{color:#999c88}.steps li.active{color:#e5d5ac}.steps li:before{border-color:#92886b}
+.topbar{background:#111a15aa;border-color:var(--line)}
+.screen:not(#screen2) .layout>div:nth-child(2){background:#1c261c70;border:1px solid var(--line);border-radius:4px;box-shadow:none;backdrop-filter:none}
+.viewport{border-radius:4px;background:radial-gradient(ellipse at 50% 44%,#454a3b55,#2831272b 55%,transparent 77%)}
+.screen:not(#screen2) .viewport{border:1px solid var(--line);border-radius:4px;background:radial-gradient(ellipse at 50% 44%,#454a3b55,#2831272b 55%,transparent 77%);box-shadow:none;backdrop-filter:none}
+.viewport:after{background:#04090577}
+.primary,.secondary{border-radius:3px;box-shadow:none;transition:background .2s,border-color .2s}
+.primary{background:#b8a4751e;border-color:#b8a47590;color:#eddfbd}.primary:hover{background:#b8a47535;transform:none}
+.secondary{background:transparent;border-color:var(--line);color:#b9b49d}.secondary:hover{color:#e4d3a6;border-color:#b8a47580;background:#b8a4750d}
+.primary:disabled{background:#263026;border-color:#485040;color:#949b87;opacity:.75}
+.model-btn,.brush,.process-grid button,.cooling button,.tool-switch button{background:#19241b55;border-color:var(--line);border-radius:3px;box-shadow:none}
+.model-btn[aria-pressed=true],.brush[aria-pressed=true],.process-grid button[aria-pressed=true],.cooling button[aria-pressed=true],.tool-switch button[aria-pressed=true]{background:#b8a47516;border-color:#b8a47590;color:#e1d0a4;box-shadow:none}
+.model-btn:hover{transform:none;background:#b8a4750c}
+.model-thumb:after{background:linear-gradient(90deg,#6f7c6a,#d7d5bb 46%,#738471)}
+.paint-stage{background:#1b251b45;border:1px solid var(--line);border-radius:4px;box-shadow:none;backdrop-filter:none}
+.paint-canvas-wrap{border:1px solid #c1af7e1e;border-radius:3px;background:radial-gradient(ellipse at 50% 43%,#52584988,#343d3166 55%,#27312644 85%);box-shadow:none}
+.paint-viewport{background:transparent;border-radius:3px}
+.paint-controls{background:#18221be8;border:1px solid var(--line);border-radius:4px;box-shadow:none;scrollbar-color:#7f795b transparent;backdrop-filter:none}
+.control-heading,.control-section{border-color:var(--line)}.control-heading{font-family:var(--studio-serif)}.control-heading span+span{color:#9a9d86}
+.section-title>b{border-color:var(--line);border-radius:2px;color:#c9b78a}
+.paint-controls .brush,.paint-controls .process-grid button,.paint-controls .cooling button{border-radius:3px}
+.swatch{color:#b7b49d}.swatch i{box-shadow:inset 0 1px 5px #ffffff66,0 3px 7px #00000022}
+.swatch[aria-pressed=true]{background:#b8a47514;border-radius:3px;box-shadow:none}
+.canvas-guide,.zoom-control,.paint-viewport .view-tip,.technique-primer{background:#1a251ded;border:1px solid var(--line);border-radius:4px;box-shadow:none;color:#bdbca6;backdrop-filter:blur(12px)}
+.canvas-guide b{background:#b8a4751a;color:#e1d0a4;border-radius:2px}
+.primer-card,.technique-btn{border-color:var(--line);border-radius:3px;background:#18211a;box-shadow:none}
+.primer-card:hover,.technique-btn:hover{background:#2c3527;transform:none}
+.primer-card[aria-pressed=true],.technique-btn[aria-pressed=true]{background:#b8a4751c;border-color:#b8a47580;color:#e1d0a4;box-shadow:none}
+.primer-diagram .vessel-line{fill:#b8a4751a;stroke:#b9b799}.primer-diagram .orbit-line,.primer-diagram .liquid-line{stroke:#b9b799}
+.technique-info{background:#b8a47507;border-left-color:#b8a47560;border-radius:0}.technique-info small{color:#a5a88e}
+.technique-adjustment:not([hidden]){background:#1d281d;border-color:var(--line);border-radius:3px}
+.guide-dot{background:#b8a475;box-shadow:0 0 0 4px #b8a47518}
+.mobile-nav{background:#141d18ed;border-color:var(--line);box-shadow:none}.mobile-nav span{color:#979d86}.mobile-nav span.active{color:#e4d3a6}
+.onboarding-scrim{background:#070d0990}.onboarding-card{background:#1e291ef0;border:1px solid #c1af7e66;border-radius:4px;box-shadow:0 16px 35px #00000033;color:var(--ink)}
+.onboarding-card b{font-family:var(--studio-serif)}.onboarding-dismiss{background:#202b20;color:#e4d3a6;border:1px solid #b8a47580;border-radius:3px;box-shadow:none}
+.firing-core{background:#182019b8;border-color:#c1af7e38;border-radius:4px;box-shadow:0 20px 100px #00000033}
+.toast{background:#263328;border:1px solid #c1af7e45;color:#eddfbd;border-radius:4px}
+/* Shared utility screens keep a quiet, readable paper surface. */
+.app.result-mode:not(.museum-mode){--ink:#2e423b;--muted:#7e8d84;--sage:#568276;--sage2:#335f55;--line:#d8d9cb;color:#2e423b}
+.collection-dialog{background:#172119;color:#e1d6ba;border-color:#b8a47550;border-radius:4px}
+.collection-header h2{font-family:var(--studio-serif)}.collection-header button{border-color:var(--line);color:#d2c6a6}
+.collection-dialog>p,.collection-empty,.collection-item small{color:#aaa992}.collection-item{background:#202a20;border-color:var(--line);color:#ddd0ad}
+@media(max-width:820px){.paint-stage,.paint-controls{border-radius:4px}.intro-caption{border-radius:3px}.technique-primer,.primer-card{border-radius:3px}}

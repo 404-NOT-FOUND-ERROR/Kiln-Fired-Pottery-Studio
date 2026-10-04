@@ -1,0 +1,107 @@
+{
+  "version": 2,
+  "style": "living",
+  "plinth": {
+    "file": "receiver.bin",
+    "vertices": 32002,
+    "indices": 191796,
+    "stride": 8,
+    "bytes": 1791248
+  },
+  "foliage": {
+    "file": "foliage-shadow.bin",
+    "vertices": 4128,
+    "indices": 14784,
+    "stride": 8,
+    "bytes": 191232
+  },
+  "cameras": {
+    "full": {
+      "position": [
+        2.700000047683716,
+        4.400000095367432,
+        16.100000381469727
+      ],
+      "quaternion": [
+        -0.05746402591466904,
+        0.07785427570343018,
+        0.0044949669390916824,
+        0.9952971339225769
+      ],
+      "fov": 19.804562304214066,
+      "width": 1920,
+      "height": 1080,
+      "focusPoint": [
+        -1.0,
+        2.799999952316284,
+        0.6499999761581421
+      ],
+      "fstop": 0.30000001192092896,
+      "focalLength": 58.0
+    },
+    "above": {
+      "position": [
+        2.799999952316284,
+        8.5,
+        12.800000190734863
+      ],
+      "quaternion": [
+        -0.21408692002296448,
+        0.09876139461994171,
+        0.021762320771813393,
+        0.9715654253959656
+      ],
+      "fov": 19.804562304214066,
+      "width": 1920,
+      "height": 1080,
+      "focusPoint": [
+        -1.0,
+        2.799999952316284,
+        0.6499999761581421
+      ],
+      "fstop": 0.699999988079071,
+      "focalLength": 58.0
+    },
+    "detail": {
+      "position": [
+        3.799999952316284,
+        4.900000095367432,
+        10.199999809265137
+      ],
+      "quaternion": [
+        -0.10463536530733109,
+        0.17425216734409332,
+        0.01862505078315735,
+        0.9789488315582275
+      ],
+      "fov": 17.44339559596346,
+      "width": 1920,
+      "height": 1080,
+      "focusPoint": [
+        -1.0,
+        2.799999952316284,
+        0.6499999761581421
+      ],
+      "fstop": 0.2199999988079071,
+      "focalLength": 66.0
+    }
+  },
+  "plinthTop": 1.055,
+  "anchor": [
+    0.385,
+    0.49
+  ],
+  "anchors": {
+    "detail": [
+      0.35,
+      0.49
+    ]
+  },
+  "heroPosition": [
+    -1,
+    1.025,
+    0
+  ],
+  "source": "living-scene.blend",
+  "note": "Clean photographic plates have no hero ceramic or its shadow; receiver matches the woven cloth and tabletop."
+}

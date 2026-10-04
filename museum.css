@@ -1,0 +1,55 @@
+.app.result-mode:is(.museum-mode,.living-mode){max-width:none;width:100%;margin:0;border-radius:0;background:#101713;color:#d6cbb0;--ex-line:#d1be8829}
+:is(.museum-mode,.living-mode) #screen3{padding:0;position:relative;min-height:100svh}
+:is(.museum-mode,.living-mode) .exhibit-heading{position:absolute;inset:30px 4% auto;z-index:4;pointer-events:none;margin:0}
+:is(.museum-mode,.living-mode) .exhibit-heading button{pointer-events:auto;color:#c7b892;border-color:#c7b89245;background:#10181344}
+:is(.museum-mode,.living-mode) .exhibit-eyebrow{color:#c7b892;letter-spacing:.2em;margin:0}
+:is(.museum-mode,.living-mode) .exhibit-heading h1,:is(.museum-mode,.living-mode) .exhibit-heading p:last-child{display:none}
+:is(.museum-mode,.living-mode) .exhibit-layout{display:block}
+:is(.museum-mode,.living-mode) .exhibit-view{height:100svh;min-height:720px;max-height:none;border-radius:0}
+:is(.museum-mode,.living-mode) .view-masthead{top:105px;left:4%;right:4%;color:#b9aa85;letter-spacing:.15em}
+:is(.museum-mode,.living-mode) .view-masthead span:last-child,:is(.museum-mode,.living-mode) .view-watermark{display:none}
+:is(.museum-mode,.living-mode) .view-bottom{left:4%;right:4%;bottom:27px;color:#b0aa93}
+:is(.museum-mode,.living-mode) .view-bottom span:first-child{display:none}
+:is(.museum-mode,.living-mode) .exhibit-panel{position:absolute;z-index:3;top:23%;right:7%;width:25%;max-width:355px;border:0;color:#c9bfa4}
+:is(.museum-mode,.living-mode) .panel-tabs{gap:28px;border:0;margin-bottom:32px}
+:is(.museum-mode,.living-mode) .panel-tabs button{color:#b6aa8a;font-size:11px;padding:0 0 10px}
+:is(.museum-mode,.living-mode) .panel-tabs button[aria-pressed=true]{color:#e5d4a5;border-color:#b8a478}
+:is(.museum-mode,.living-mode) .panel-kicker{color:#b6a47d;font-size:9px;letter-spacing:.3em;margin:0 0 17px}
+:is(.museum-mode,.living-mode) .name-label{position:absolute;clip-path:inset(50%);width:1px;height:1px;overflow:hidden}
+:is(.museum-mode,.living-mode) #pieceName{color:#eddfbd;font:clamp(32px,3.1vw,52px)/1.5 'Songti SC',SimSun,serif;letter-spacing:.1em;border:0;padding:0}
+:is(.museum-mode,.living-mode) .piece-description{color:#b9b19a;font:12px/2.3 'Songti SC',SimSun,serif;white-space:pre-line;margin:22px 0 34px;min-height:55px}
+:is(.museum-mode,.living-mode) .piece-facts,:is(.museum-mode,.living-mode) .photo-format,:is(.museum-mode,.living-mode) .photo-note,:is(.museum-mode,.living-mode) .storage-note{display:none}
+:is(.museum-mode,.living-mode) .exhibit-primary,:is(.museum-mode,.living-mode) .exhibit-secondary{min-height:44px;color:#d6c7a0;border:1px solid #b6a57955;background:#15201770;backdrop-filter:blur(8px);font-size:11px;border-radius:2px}
+:is(.museum-mode,.living-mode) .exhibit-primary{background:#b5a2751a;border-color:#b6a57988}
+:is(.museum-mode,.living-mode) .exhibit-primary:hover,:is(.museum-mode,.living-mode) .exhibit-secondary:hover{background:#b5a27530}
+:is(.museum-mode,.living-mode) .exhibit-footer{border-color:#b6a57925;margin-top:24px;padding-top:20px}
+:is(.museum-mode,.living-mode) .exhibit-footer button{color:#b6aa8a}
+:is(.museum-mode,.living-mode) .exhibit-footer span{color:#a69e85}
+:is(.museum-mode,.living-mode) .scene-picker{position:absolute;left:4%;bottom:69px;z-index:3;width:43%;max-width:540px;gap:12px}
+:is(.museum-mode,.living-mode) .scene-picker button{background:#121c1666;border-color:#cab88d30;color:#bfb291;backdrop-filter:blur(8px)}
+:is(.museum-mode,.living-mode) .scene-picker button[aria-pressed=true]{border-color:#cab88d88;background:#3f483444}
+:is(.museum-mode,.living-mode) .scene-picker small{color:#a19e88;font-size:8px}
+:is(.museum-mode,.living-mode) .scene-picker b{font-size:15px}:is(.museum-mode,.living-mode) .scene-picker i{color:#b8aa89}
+:is(.museum-mode,.living-mode) .museum-icon{background:center/cover url('./assets/museum/gallery-full.webp')}:is(.museum-mode,.living-mode) .museum-icon:after{display:none}
+:is(.museum-mode,.living-mode) .camera-bar{position:absolute;right:6%;bottom:73px;z-index:3;color:#b6aa8a;gap:7px}
+:is(.museum-mode,.living-mode) .camera-bar button{color:#b6aa8a;font-size:10px}
+:is(.museum-mode,.living-mode) .camera-bar button[aria-pressed=true]{color:#e3d2a9;background:#c8b78020}
+:is(.museum-mode,.living-mode) .artifact-notes,:is(.museum-mode,.living-mode) .exhibit-colophon{display:none}
+.museum-settings{display:none}:is(.museum-mode,.living-mode) .museum-settings{display:block;margin:18px 0 0;background:none;border:0;padding:0;font-size:10px;color:#b4a88b;cursor:pointer}
+:is(.museum-mode,.living-mode) .settings-expanded .piece-facts{display:grid;font-size:11px;padding:12px 0;gap:9px}
+:is(.museum-mode,.living-mode) .settings-expanded .photo-format{display:flex;margin:12px 0;color:#b4a88b}
+:is(.museum-mode,.living-mode) .settings-expanded .photo-format button{color:#cabd9e}:is(.museum-mode,.living-mode) .settings-expanded .photo-format button[aria-pressed=true]{background:#9e987733}
+:is(.museum-mode,.living-mode) .settings-expanded .storage-note{display:block;color:#b4a88b}
+:is(.museum-mode,.living-mode) .settings-expanded .piece-description{margin:12px 0}
+@media(max-width:900px){:is(.museum-mode,.living-mode) .exhibit-panel{right:4%;width:30%}:is(.museum-mode,.living-mode) .scene-picker{width:48%}:is(.museum-mode,.living-mode) .scene-picker small{display:none}:is(.museum-mode,.living-mode) .camera-bar{right:3%;gap:0}:is(.museum-mode,.living-mode) .camera-bar>span{display:none}}
+@media(min-width:901px){:is(.museum-mode,.living-mode) .exhibit-panel{max-height:calc(77svh - 180px);overflow-y:auto;scrollbar-width:thin;scrollbar-color:#817557 #142019;padding-right:8px}}
+@media(max-width:900px){
+ :is(.museum-mode,.living-mode) .exhibit-view{height:580px;min-height:0;max-height:none}
+ :is(.museum-mode,.living-mode) .exhibit-heading{inset:22px 20px auto}:is(.museum-mode,.living-mode) .exhibit-eyebrow{font-size:8px;letter-spacing:.07em}
+ :is(.museum-mode,.living-mode) .view-masthead{top:85px;left:22px}:is(.museum-mode,.living-mode) .view-bottom{bottom:75px;left:22px}
+ :is(.museum-mode,.living-mode) .exhibit-panel{position:relative;top:auto;right:auto;width:auto;max-width:none;margin:20px 26px 0;padding-bottom:30px}
+ :is(.museum-mode,.living-mode) .panel-tabs{margin-bottom:22px}:is(.museum-mode,.living-mode) #pieceName{font-size:36px}:is(.museum-mode,.living-mode) .piece-description{margin:14px 0 24px}
+ :is(.museum-mode,.living-mode) .scene-picker{position:relative;bottom:auto;left:auto;width:auto;margin:0 20px;max-width:none;gap:7px}
+ :is(.museum-mode,.living-mode) .camera-bar{top:525px;bottom:auto;left:18px;right:18px;justify-content:center}:is(.museum-mode,.living-mode) .camera-bar>button{margin-left:10px}
+ :is(.museum-mode,.living-mode) .scene-picker button{padding:11px 9px}:is(.museum-mode,.living-mode) .scene-picker i{display:none}
+}

@@ -11,3 +11,6 @@ DONG-窑变陶艺体验.html
 Thumbs.db
 .vscode/
 .idea/
+node_modules/
+qa-artifacts/
+*.blend1

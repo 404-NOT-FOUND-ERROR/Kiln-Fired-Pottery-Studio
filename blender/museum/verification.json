@@ -1,0 +1,20 @@
+{
+  "reopened": true,
+  "packed_images": [
+    {
+      "name": "mountain.png",
+      "packed": true
+    },
+    {
+      "name": "poem.png",
+      "packed": true
+    }
+  ],
+  "hero_bottom": 1.0989229679107666,
+  "camera": "CAMERA · 01 exhibition / 16x9",
+  "hero_polygons": 44352,
+  "objects": 216,
+  "main_image": true,
+  "detail_image": true,
+  "reopen_render": true
+}

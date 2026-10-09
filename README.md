@@ -4,7 +4,7 @@
 
 ## 使用
 
-1. 下载 [index.html](https://github.com/404-NOT-FOUND-ERROR/-demo--/raw/refs/heads/single-html/index.html)，保存为 HTML。
+1. 下载 [index.html](https://github.com/404-NOT-FOUND-ERROR/Kiln-Fired-Pottery-Studio/raw/refs/heads/single-html/index.html)，保存为 HTML。
 2. 用 Edge 或 Chrome 打开，离线即可体验。
 3. 也可将此文件作为网站首页部署，或通过 iframe 嵌入平台。
 

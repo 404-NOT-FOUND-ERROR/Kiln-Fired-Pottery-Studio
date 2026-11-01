@@ -54,3 +54,6 @@ npm run build:platform
 平台版通过 Node/Python 静态审计，并在 1440×810、1024×768、768×1024、390×753、352×447 检查布局；另验证触控、收藏、作品卡预览导出与 WebGL 恢复。验证属于桌面浏览器模拟，实体手机和平台线上嵌入需以实际环境为准。
 
 目录：`assets/` 为运行素材，`blender/` 为美术工程与生成脚本，`design-concepts/` 为设计参考，`tests/` 为验证脚本。测试中间图片、缓存和 Blender 自动备份不进入最终交付。
+
+[最终交付记录](docs/final-delivery.md)。
+

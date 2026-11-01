@@ -1,0 +1,25 @@
+{
+  "mode": "built-in image_gen",
+  "use_case": "ui-mockup",
+  "deliverables": [
+    {
+      "key": "sculpt",
+      "path": "sculpt-ui-20261008.png"
+    },
+    {
+      "key": "paint",
+      "path": "paint-ui-20261008.png"
+    }
+  ],
+  "prompts": [
+    {
+      "key": "sculpt",
+      "prompt": "Use case: ui-mockup. Asset type: high-fidelity desktop web interface concept, 16:9 landscape, one complete screen, Chinese educational pottery making module embedded in a platform. Primary request: design the hand-sculpting clay screen in the same understated photographic style as a dark museum gallery, warm window still life, and terracotta/indigo ceramic color-field exhibition, but this is a quiet neutral WORKING STUDIO with no decorative 3D room. No branding, no logo, NO TOP NAVBAR.\nA large physically credible damp taupe earthenware small jar, hollow short neck, rounded shoulder, subtle uneven hand-pinched rim, fine clay grain, restrained damp reflections and circular throwing ridges, sits solidly on a simple pale warm stone throwing wheel in the center-left 65% of frame. NOT a fired white porcelain vase. Refined soft warm afternoon side lighting, soft contact shadow, linen ivory plaster ground, gentle atmospheric shadows, the object has room around it and remains fully visible.\nInterface: a calm narrow floating translucent warm frosted-glass tool island on the RIGHT, clear dark umber labels, fine brown outlines, restrained radii, all controls are the SAME frosted-glass visual family. NO chunky faux wooden buttons. Small step caption \"02 / 塑形\"; elegant readable Chinese Song type heading \"捏出自己的器物\"; short readable supporting text \"推一推，拉一拉，留下双手的痕迹\". Three simple outlined tool icons labeled \"推拉\" \"拉高\" \"抚平\", a second row labeled \"局部手捏\" \"指腹压痕\", compact height/diameter readouts, \"撤销\" and \"重置\", and a substantial understated primary bottom-right button labeled \"完成塑形 →\". Below the pottery a small floating transform strip labeled \"旋转\" \"缩放\" \"复位\". Along the lower-left margin only a subtle progress breadcrumb \"起点 · 塑形 · 装饰 · 烧成 · 收藏\". No shape-selection menu on this sculpting screen. Balanced real usable UI, visible readable controls, generous object space but compact settings, light atmospheric luxury artisan quality, no green tinted panels, no extra decorative objects, no doll/game style, no stock app branding, no random English labels. This is a concrete polished design concept screenshot, not a moodboard or multiple panels."
+    },
+    {
+      "key": "paint",
+      "prompt": "Use case: ui-mockup. Asset type: high-fidelity desktop web interface concept, 16:9 landscape, one complete screen. Design the painting and glazing screen of the SAME quiet Chinese pottery studio experience as its hand-sculpt screen. NO branding, no logo, NO TOP NAVBAR, no 3D room. Linen ivory and warm gray plaster background, soft natural side light, dark umber readable type, extremely restrained Song type titles, fine brown outlines, uniform warm FROSTED-GLASS controls, no green tinted UI and no mixed skeuomorphic wood buttons.\nIn the center stands one handmade hollow small jar with a short neck and rounded belly on a simple pale warm stone wheel, same low camera angle and real ceramic scale as a sculpting workspace. It has a matte bisque base and un-fired powdery celadon wash with a soft layered muted copper-colored brushstroke and an elegant cobalt flower mark; some untouched warm ivory bisque remains. The jar is NOT fully glossy or fired yet. Real clay/bisque grain, soft transparent brush layering rather than hard sticker edges. There are NO hands covering the jar.\nFunctional layout: narrow floating LEFT tool panel with two vertical sliders clearly labeled \"大小\" and \"釉量\", a two-option row \"窑变釉\" \"纹样彩绘\", four compact glazing method controls \"刷釉\" \"转台\" \"浸釉\" \"淋釉\", brush/erase, leaf/flower stamp icons, undo, base coat. ALL controls visible, no accordion, no scroll bar. Bottom central floating horizontal palette of richly differentiated natural ceramic pigment circles, warm ivory, celadon, deep green, cobalt, copper red, violet, ochre, brown, charcoal; small clear color labels. Narrow floating RIGHT panel, with a small before/after glaze swatch, four distinct small effect swatches labeled \"流彩\" \"晶花\" \"铁斑\" \"开片\", followed by compact firing options \"氧化\" \"还原\" \"柴烧\" and cooling options \"缓冷\" \"快冷\"; one concise selected-effect explanation, not long paragraphs. A clear bottom-right button \"完成装饰，入窑 →\". Center above the jar small caption \"03 / 装饰\" and Song type heading \"留下一层颜色\". Tiny transform strip below for rotate/zoom, understated bottom-left progress breadcrumb \"起点 · 塑形 · 装饰 · 烧成 · 收藏\". Strong visual coherence and deliberate hierarchy, editable live-app-looking controls, all text comfortable to read, rich material realism, space around the vessel, no harsh outlines, no generic dashboard cards, no sci-fi glow. Render one polished coherent screen, not a collage."
+    }
+  ],
+  "note": "Design concepts, not screenshots of the running app. Both images are saved in this directory."
+}

@@ -1,0 +1,37 @@
+{
+  "sizes": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      740
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      768,
+      1024
+    ]
+  ],
+  "touchSculpt": true,
+  "touchPaint": true,
+  "twoFingerNavigation": true,
+  "noAccidentalEdits": true,
+  "orientationPreservesWork": true,
+  "paletteSwipe": true,
+  "wheel": true,
+  "dip": true,
+  "comparisonDrag": true,
+  "saveCollection": true,
+  "exportCard": true,
+  "offline": true,
+  "errors": []
+}

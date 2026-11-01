@@ -13,9 +13,7 @@ html,body{background:#101713;color:var(--ink)}
 .app.paint-mode{max-width:none}
 .rail{background:#101713;border-right:1px solid var(--line);color:#c5b997}.brand strong{color:#e7d8b4}.rail-copy,.rail-note{color:#aaa992}.steps li{color:#999c88}.steps li.active{color:#e5d5ac}.steps li:before{border-color:#92886b}
 .topbar{background:#111a15aa;border-color:var(--line)}
-.screen:not(#screen2) .layout>div:nth-child(2){background:#1c261c70;border:1px solid var(--line);border-radius:4px;box-shadow:none;backdrop-filter:none}
 .viewport{border-radius:4px;background:radial-gradient(ellipse at 50% 44%,#454a3b55,#2831272b 55%,transparent 77%)}
-.screen:not(#screen2) .viewport{border:1px solid var(--line);border-radius:4px;background:radial-gradient(ellipse at 50% 44%,#454a3b55,#2831272b 55%,transparent 77%);box-shadow:none;backdrop-filter:none}
 .viewport:after{background:#04090577}
 .primary,.secondary{border-radius:3px;box-shadow:none;transition:background .2s,border-color .2s}
 .primary{background:#b8a4751e;border-color:#b8a47590;color:#eddfbd}.primary:hover{background:#b8a47535;transform:none}
@@ -48,8 +46,6 @@ html,body{background:#101713;color:var(--ink)}
 .onboarding-card b{font-family:var(--studio-serif)}.onboarding-dismiss{background:#202b20;color:#e4d3a6;border:1px solid #b8a47580;border-radius:3px;box-shadow:none}
 .firing-core{background:#182019b8;border-color:#c1af7e38;border-radius:4px;box-shadow:0 20px 100px #00000033}
 .toast{background:#263328;border:1px solid #c1af7e45;color:#eddfbd;border-radius:4px}
-/* Shared utility screens keep a quiet, readable paper surface. */
-.app.result-mode:not(.museum-mode){--ink:#2e423b;--muted:#7e8d84;--sage:#568276;--sage2:#335f55;--line:#d8d9cb;color:#2e423b}
 .collection-dialog{background:#172119;color:#e1d6ba;border-color:#b8a47550;border-radius:4px}
 .collection-header h2{font-family:var(--studio-serif)}.collection-header button{border-color:var(--line);color:#d2c6a6}
 .collection-dialog>p,.collection-empty,.collection-item small{color:#aaa992}.collection-item{background:#202a20;border-color:var(--line);color:#ddd0ad}

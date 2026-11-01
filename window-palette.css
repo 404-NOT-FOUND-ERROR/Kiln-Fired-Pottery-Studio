@@ -1,0 +1,4 @@
+/* The window scene changes color without moving any shared controls. */
+.app.result-mode.living-mode{--piece-ink:#37291b;--piece-muted:#665035;--piece-line:#715a3866;--piece-glass:#efdfbe55;--piece-accent:#7b623e;background:#dfd0b3}
+.living-mode .piece-settings{background:#f0e2c4e8}
+.scene-picker .living-icon{background:38% 55%/cover url('./assets/living/window-full.webp')}

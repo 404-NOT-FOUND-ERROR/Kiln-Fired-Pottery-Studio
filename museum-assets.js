@@ -1,10 +1,11 @@
 import * as THREE from 'three';
+import {applyFiredGlaze} from './glaze-surface.mjs';
 import { RGBELoader } from './vendor/RGBELoader.js';
 
 const base = new URL('./assets/museum/', import.meta.url);
 async function checked(url) {
   const response = await fetch(url);
-  if (!response.ok) throw new Error(`Museum asset ${response.status}: ${url}`);
+  if (!response.ok) throw new Error(`Scene asset ${response.status}: ${url}`);
   return response;
 }
 async function geometry(info, directory=base) {
@@ -53,15 +54,48 @@ export async function loadLivingAssets() {
   return {manifest,plinth,foliage,plates:{full,above,detail},hdr};
 }
 
+export async function loadArtAssets() {
+  const directory=new URL('./assets/art/',import.meta.url);
+  const manifest=await(await checked(new URL('manifest.json',directory))).json();
+  const loader=new THREE.TextureLoader();
+  async function plate(view){const texture=await loader.loadAsync(new URL(`colorfield-${view}.webp`,directory).href);texture.colorSpace=THREE.SRGBColorSpace;return texture;}
+  async function glazeTexture(name,color=false){const texture=await loader.loadAsync(new URL(name,directory).href);texture.colorSpace=color?THREE.SRGBColorSpace:THREE.NoColorSpace;texture.anisotropy=4;return texture;}
+  const [plinth,full,above,detail,hdr,glaze]=await Promise.all([
+    geometry(manifest.plinth,directory),plate('full'),plate('above'),plate('detail'),new RGBELoader().loadAsync(new URL('colorfield-light.hdr',directory).href),
+    manifest.glaze?Promise.all([glazeTexture(manifest.glaze.specimen,true),glazeTexture(manifest.glaze.normal),glazeTexture(manifest.glaze.roughness)]).then(([specimen,normal,roughness])=>({specimen,normal,roughness})):null
+  ]);
+  hdr.mapping=THREE.EquirectangularReflectionMapping;
+  return {manifest,plinth,plates:{full,above,detail},hdr,glaze};
+}
+
+export async function loadWorkshopAssets() {
+  const directory=new URL('./assets/workshop/',import.meta.url);
+  const manifest=await(await checked(new URL('bisque.json',directory))).json();
+  const loader=new THREE.TextureLoader();
+  async function texture(name,color=false){const value=await loader.loadAsync(new URL(name,directory).href);value.colorSpace=color?THREE.SRGBColorSpace:THREE.NoColorSpace;value.anisotropy=8;return value;}
+  const [jar,albedo,normal,roughness,ao,hdr]=await Promise.all([
+    geometry(manifest.jar,directory),texture(manifest.albedo,true),texture(manifest.normal),texture(manifest.roughness),texture(manifest.ao),new RGBELoader().loadAsync(new URL(manifest.hdr,directory).href)
+  ]);
+  hdr.mapping=THREE.EquirectangularReflectionMapping;
+  return {manifest,jar,albedo,normal,roughness,ao,hdr};
+}
+
 export function applyGlazeSurface(material, assets, { before = false, specimen = false, cooling = '缓冷' } = {}) {
+  if(material.userData.handmade){
+    material.normalMap=null;material.userData.museumDetailStrength=0;
+    const finish=material.userData.finish||'gloss';
+    if(before)Object.assign(material,{clearcoat:0,clearcoatRoughness:.3,roughness:.94,specularIntensity:.2,envMapIntensity:.45,bumpScale:.055});
+    else applyFiredGlaze(material,finish);
+    material.needsUpdate=true;return;
+  }
   if (!assets) return;
   material.normalMap = before ? null : assets.normal;
   material.normalScale.set(.55, .55);
   material.roughnessMap = before ? null : assets.roughness;
-  material.roughness = before ? .64 : cooling === '快冷' ? .82 : 1.2;
-  material.clearcoat = before ? .12 : .8;
+  material.roughness = before ? .88 : cooling === '快冷' ? .82 : 1.2;
+  material.clearcoat = before ? 0 : .8;
   material.clearcoatRoughness = before ? .3 : .075;
-  material.ior = 1.47; material.specularIntensity = .8; material.sheen = 0;
+  material.ior = 1.47; material.specularIntensity = before ? .23 : .8; material.sheen = 0;
   material.userData.museumDetailStrength = before || specimen ? 0 : .68;
   if (!material.userData.museumShaderInstalled) {
     material.userData.museumShaderInstalled = true;

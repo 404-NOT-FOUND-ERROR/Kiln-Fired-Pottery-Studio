@@ -1,0 +1,52 @@
+{
+  "prepSizes": [
+    [
+      1448,
+      754
+    ],
+    [
+      1191,
+      668
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      390,
+      753
+    ],
+    [
+      352,
+      447
+    ]
+  ],
+  "sizes": [
+    [
+      1448,
+      795
+    ],
+    [
+      1440,
+      810
+    ],
+    [
+      1191,
+      668
+    ],
+    [
+      1024,
+      768
+    ]
+  ],
+  "previewUsesExportLayout": true,
+  "previewExportPixelDifference": 1.6262109375,
+  "idleDoesNotRender": true,
+  "formatsAndScenesUpdate": true,
+  "offline": true,
+  "errors": []
+}

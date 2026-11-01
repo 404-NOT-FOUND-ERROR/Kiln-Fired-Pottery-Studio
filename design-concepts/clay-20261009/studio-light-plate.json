@@ -1,0 +1,6 @@
+{
+  "tool": "Built-in imagegen",
+  "reference": "C:/Users/502BAD~1/AppData/Local/Temp/codex-clipboard-7f8d81f4-52d6-4fca-927f-e1aba0ce66e2.png",
+  "asset": "D:/502 Bad Gateway/Codex Project/Fasiontoy Workflow/pottery-studio/assets/studio-light-plate-20261009.webp",
+  "prompt": "Edit target: the provided light pottery studio UI reference image. Produce ONLY the clean photographic background plate by removing ALL foreground objects: remove pottery jar, circular wheel/pedestal, their cast/contact shadows, every panel, button, slider, toolbar, text, numerals and UI. Inpaint the areas seamlessly. Preserve exactly the original atmosphere, 16:9 framing, creamy ivory/beige plaster floor merging smoothly into a defocused warm taupe backdrop, diagonal softly mottled bands of warm afternoon sunlight across the lower-left floor, airy glowing upper-left corner, slightly deeper warm taupe upper-right. Preserve subtle fine realistic plaster/grain and light/shadow softness; do not flatten to a plain gradient. Absolutely no vase, ceramics, table, wheel, furniture, room architecture, horizon seam, doors, shelves, text, icons or marks. The final is an empty premium studio background intended to sit behind a real interactive pottery mesh; broad empty floor at lower left and clear understated background at right. High-quality photographic lighting, faithful to this image."
+}

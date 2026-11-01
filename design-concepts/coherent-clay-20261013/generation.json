@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-13",
+  "tool": "Built-in imagegen",
+  "purpose": "Approved lighting concept and empty photographic 2D tabletop for live pottery",
+  "approvedConcept": "approved-concept.png",
+  "generatedPlate": "empty-background.png",
+  "productionAsset": "../../assets/studio-coherent-plate-20261013.webp",
+  "conversion": "PNG to WebP, quality 90. No visual edits outside imagegen.",
+  "prompt": "Use case: precise-object-edit. This is the approved visual concept for a pottery studio. Produce ONLY its empty photographic background plate, same full landscape 16:9 framing, perspective, camera height, spatial layout, surface textures, warm neutral white balance, subtle daylight and depth of field. Remove ALL UI, ALL text, ALL icons, translucent interface panels and sliders, the entire clay jar AND the circular turning disc AND every cast/contact shadow caused by the jar or disc. Reconstruct the clean tabletop continuously where those objects were. Keep the existing softly textured pale warm limestone/plaster tabletop, its subtle natural speckles in the foreground, the gentle curved transition to the backdrop, and the soft diagonal window light entering from the upper left. Do not invent objects or add a room. No vessel, no pedestal, no circular marks left by a vessel, no ghost shadows, no vignette, no text, no logo, no UI. The center-left area must be an EMPTY clean, evenly continuous tabletop ready to receive a real-time model with its own shadows. Preserve the reference's exact lighting direction and the faint diagonal bands of light across the table and backdrop. Photographic natural material detail, sharper foreground, gently softer far background. This is a production background asset, not a new interface mockup."
+}

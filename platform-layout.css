@@ -1,0 +1,68 @@
+/* Platform delivery keeps the approved visual language with readable minimums. */
+.dly-platform .subline,.dly-platform .process-tip p,.dly-platform .context-guide-copy{font-size:14px}
+.dly-platform .studio-progress,.dly-platform .module-navigation,.dly-platform .piece-summary,
+.dly-platform .workshop-kicker,.dly-platform .observation-progress,.dly-platform .camera-bar button,
+.dly-platform .exhibit-footer button,.dly-platform .photo-format,.dly-platform .photo-format button{font-size:12px}
+.dly-platform .render-status{position:absolute;z-index:10;left:50%;top:50%;transform:translate(-50%,-50%);padding:16px 22px;border-radius:14px;background:#fff7eadf;color:#655343;font:14px/1.7 var(--studio-serif);text-align:center}
+.dly-platform .intro-kicker{font-size:14px!important}
+.dly-platform .starting-choice .model-btn small{font-size:12px!important;line-height:1.4;white-space:normal}
+.dly-platform .starting-choice .model-btn{min-height:98px}
+.dly-platform details:not([open])>:not(summary){display:none!important}
+.dly-platform #toast:not(.show){display:none}
+.dly-platform #sculptHint,.dly-platform .name-label,.dly-platform #photoDragHint{display:none!important}
+@media(min-width:901px){
+ body.dly-platform[data-making-phase=choose] .selection-controls{width:32vw;max-width:460px;min-width:300px;padding:20px}
+ body.dly-platform[data-making-phase=choose] .starting-choice .model-select{gap:7px}
+ body.dly-platform[data-making-phase=choose] #modelDesc{line-height:1.55}
+ body.dly-platform[data-making-phase=choose] .starting-choice .model-thumb{height:40px}
+ body.dly-platform[data-studio-step="3"] .exhibit-panel{width:32vw;max-width:460px}
+ body.dly-platform[data-studio-step="3"] .exhibition-dock{width:32vw;max-width:460px}
+ body.dly-platform[data-studio-step="3"] .camera-bar{height:auto;min-height:49px}
+ body.dly-platform[data-studio-step="3"] .scene-picker button{padding:7px;min-height:55px}
+ body.dly-platform[data-studio-step="3"] #resultPanel>section{padding-block:9px}
+ body.dly-platform[data-studio-step="3"] .glaze-material-note{margin-top:6px}
+ body.dly-platform[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius{width:78px}
+}
+@media(min-width:901px) and (max-height:740px){
+ body.dly-platform[data-studio-step="3"] #resultHeading{margin-bottom:9px}
+ body.dly-platform[data-studio-step="3"] .panel-tabs{margin-bottom:9px}
+ body.dly-platform[data-studio-step="3"] .piece-summary{margin-block:4px 8px}
+ body.dly-platform[data-studio-step="3"] .scene-picker button{padding:5px;min-height:48px}
+ body.dly-platform[data-studio-step="3"] .scene-picker .scene-icon{height:43px}
+ body.dly-platform[data-studio-step="3"] .artwork-preview-row{padding-top:5px;margin-top:5px}
+}
+@media(pointer:coarse) and (min-width:901px){
+ body.dly-platform button,body.dly-platform summary{min-width:44px!important;min-height:44px!important}
+ body.dly-platform input{font-size:16px!important;min-height:44px!important;min-width:44px!important}
+ body.dly-platform .paint-left-rail .workbench-tools{width:136px}
+ body.dly-platform .workbench-tools input[type=range]{background:linear-gradient(#d6c5b1,#d6c5b1) center/6px calc(100% - 16px) no-repeat!important}
+ body.dly-platform .workbench-colors .palette{overflow-x:auto;gap:0;justify-content:flex-start}
+ body.dly-platform .workbench-colors .swatch{flex:0 0 44px;max-width:none;padding:8px!important}
+ body.dly-platform .workbench-colors .swatch i{width:26px;height:26px}
+ body.dly-platform .workbench-colors{padding-block:0 4px}
+ body.dly-platform .workshop-camera{min-height:50px}
+ body.dly-platform[data-studio-step="3"] .exhibit-panel{padding:16px}
+ body.dly-platform[data-studio-step="3"] .result-panel-body{overflow:auto!important;scroll-padding-block:8px}
+ body.dly-platform[data-studio-step="3"] #resultHeading{margin-bottom:8px}
+ body.dly-platform[data-studio-step="3"] .panel-tabs{margin-bottom:7px}
+ body.dly-platform[data-studio-step="3"] .piece-summary{margin-bottom:7px}
+ body.dly-platform[data-studio-step="3"] #resultPanel>section{padding-block:5px}
+ body.dly-platform[data-studio-step="3"] .glaze-light-direction{margin-top:5px}
+ body.dly-platform[data-studio-step="3"] .glaze-light-options button{gap:3px;padding:4px}
+ body.dly-platform[data-studio-step="3"] .glaze-light-options .light-sphere{width:30px;height:30px}
+}
+@media(max-width:900px) and (orientation:portrait){
+ body.dly-platform #portraitUI button{min-height:44px!important;min-width:44px!important}
+ body.dly-platform #portraitUI input[type=range]{height:44px!important;min-height:44px!important}
+ body.dly-platform #portraitUI input{font-size:16px!important}
+ body.dly-platform #portraitUI #pieceName{min-height:44px!important;height:44px!important}
+ body.dly-platform #portraitUI #portraitCamera .workshop-camera{height:46px!important}
+ body.dly-platform #portraitUI .camera-bar{height:46px!important}
+ body.dly-platform #portraitUI .sculpt-measurements{gap:6px!important;flex-wrap:wrap}
+ body.dly-platform #portraitUI .guide-copy p{font-size:14px!important}
+ body.dly-platform #portraitUI .portrait-header{gap:8px}
+ body.dly-platform #portraitGesture{max-width:none;white-space:normal;font-size:12px!important;line-height:1.4}
+ body.dly-platform #portraitUI .model-btn small{display:none}
+ body.dly-platform #portraitUI .sculpt-dock{overflow-x:auto;overscroll-behavior:contain}
+ body.dly-platform #portraitUI .sculpt-dock button{flex:1 0 44px!important}
+}

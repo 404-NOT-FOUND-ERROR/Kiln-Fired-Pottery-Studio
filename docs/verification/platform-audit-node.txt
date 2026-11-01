@@ -1,0 +1,23 @@
+WARN: index.html: text file is 9.22 MB; review parse and memory cost
+WARN: HTML/CSS/JS/JSON total is 9.22 MB; review embedded data
+WARN: [tiny-font] font-size below 12px detected; reserve 12px for the smallest short labels
+WARN: index.html: Base64 resource is 0.30 MB; review memory cost
+WARN: index.html: Base64 resource is 0.26 MB; review memory cost
+WARN: index.html: Base64 resource is 0.98 MB; review memory cost
+WARN: index.html: Base64 resource is 0.17 MB; review memory cost
+WARN: index.html: Base64 resource is 0.21 MB; review memory cost
+WARN: index.html: Base64 resource is 0.24 MB; review memory cost
+WARN: index.html: Base64 resource is 0.17 MB; review memory cost
+WARN: index.html: Base64 resource is 0.19 MB; review memory cost
+WARN: index.html: Base64 resource is 0.11 MB; review memory cost
+WARN: index.html: Base64 resource is 0.28 MB; review memory cost
+WARN: index.html: Base64 resource is 0.13 MB; review memory cost
+WARN: index.html: Base64 resource is 0.45 MB; review memory cost
+WARN: index.html: Base64 resource is 0.11 MB; review memory cost
+WARN: index.html: Base64 resource is 0.18 MB; review memory cost
+WARN: index.html: Base64 resource is 0.47 MB; review memory cost
+WARN: index.html: Base64 resource is 0.12 MB; review memory cost
+WARN: index.html: Base64 resource is 0.14 MB; review memory cost
+WARN: largest file: index.html (9.22 MB)
+TOTAL: 9.22 MB (1 file(s))
+PASS: 1 file(s), 21 warning(s)

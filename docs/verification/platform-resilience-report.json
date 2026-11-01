@@ -1,0 +1,27 @@
+{
+  "reached": [
+    "#sculptRadius",
+    "#brushSizeRange",
+    "#glazeLoadRange",
+    "#pieceName",
+    "[data-format=\"square\"]",
+    "#artworkPreview",
+    "#save",
+    "#exportPhoto",
+    "[data-glaze-light=\"side\"]",
+    ".glaze-view-options button:first-child",
+    ".glaze-recipe summary",
+    ".artifact-notes summary",
+    "[data-compare=\"cooling\"]",
+    ".observation-switch button:first-child",
+    ".observation-switch button:last-child",
+    "#exportComparison"
+  ],
+  "contextRestored": true,
+  "resolution": {
+    "width": 1024,
+    "height": 768
+  },
+  "offline": true,
+  "errors": []
+}

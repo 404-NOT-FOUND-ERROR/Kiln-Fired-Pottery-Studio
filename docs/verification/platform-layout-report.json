@@ -1,0 +1,2341 @@
+{
+  "errors": [],
+  "network": [],
+  "results": [
+    {
+      "stage": "intro",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.25,
+        "overflowX": false,
+        "textCount": 10,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.06,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "intro",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.31,
+        "overflowX": false,
+        "textCount": 10,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.07,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "intro",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.42,
+        "overflowX": false,
+        "textCount": 10,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.07,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "intro",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.83,
+        "overflowX": false,
+        "textCount": 10,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.13,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "intro",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.84,
+        "overflowX": false,
+        "textCount": 10,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.36,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "choose",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.96,
+        "overflowX": false,
+        "textCount": 33,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.65,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "choose",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.98,
+        "overflowX": false,
+        "textCount": 33,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.68,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "choose",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 20,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.72,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "choose",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 20,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.63,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "choose",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 20,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 1,
+          "samples": [
+            "圆腹罐（button）/ 用这个起点，开始塑形 →（#beginSculpt）"
+          ],
+          "items": [
+            "圆腹罐（button）/ 用这个起点，开始塑形 →（#beginSculpt）"
+          ]
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "直身坯（被 #beginSculpt 盖住）",
+            "圆腹罐（被 #beginSculpt 盖住）",
+            "手捏罐（被 #beginSculpt 盖住）"
+          ],
+          "items": [
+            "直身坯（被 #beginSculpt 盖住）",
+            "圆腹罐（被 #beginSculpt 盖住）",
+            "手捏罐（被 #beginSculpt 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.77,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "sculpt",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.93,
+        "overflowX": false,
+        "textCount": 34,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.55,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "sculpt",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.96,
+        "overflowX": false,
+        "textCount": 34,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.58,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "sculpt",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 25,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.73,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "sculpt",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 25,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.77,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "sculpt",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 25,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 2,
+          "samples": [
+            "口径（span）/ 完成塑形，准备素烧 →（#toPaint）",
+            "6.4 cm（#shapeMouth）/ 完成塑形，准备素烧 →（#toPaint）"
+          ],
+          "items": [
+            "口径（span）/ 完成塑形，准备素烧 →（#toPaint）",
+            "6.4 cm（#shapeMouth）/ 完成塑形，准备素烧 →（#toPaint）"
+          ]
+        },
+        "occluded": {
+          "count": 6,
+          "samples": [
+            "高度（被 #toPaint 盖住）",
+            "8.6 cm（被 #toPaint 盖住）",
+            "口径（被 #toPaint 盖住）",
+            "6.4 cm（被 #toPaint 盖住）"
+          ],
+          "items": [
+            "高度（被 #toPaint 盖住）",
+            "8.6 cm（被 #toPaint 盖住）",
+            "口径（被 #toPaint 盖住）",
+            "6.4 cm（被 #toPaint 盖住）",
+            "最大直径（被 #toPaint 盖住）",
+            "10.2 cm（被 #toPaint 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.66,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "paint",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.95,
+        "overflowX": false,
+        "textCount": 49,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.56,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "paint",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.96,
+        "overflowX": false,
+        "textCount": 49,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.63,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "paint",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 24,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.77,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "paint",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 24,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.71,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "paint",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 24,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 4,
+          "samples": [
+            "笔刷大小（被 button.swatch 盖住）",
+            "34（被 button.swatch 盖住）",
+            "釉量（被 button.swatch 盖住）",
+            "55（被 button.swatch 盖住）"
+          ],
+          "items": [
+            "笔刷大小（被 button.swatch 盖住）",
+            "34（被 button.swatch 盖住）",
+            "釉量（被 button.swatch 盖住）",
+            "55（被 button.swatch 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.74,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "photo",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.96,
+        "overflowX": false,
+        "textCount": 42,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.14,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "photo",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.98,
+        "overflowX": false,
+        "textCount": 42,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 1,
+          "samples": [
+            "预览 ↗（被 div.result-actions 盖住）"
+          ],
+          "items": [
+            "预览 ↗（被 div.result-actions 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.19,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "photo",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 30,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "预览 ↗（被 #exportPhoto 盖住）",
+            "再做一件 ↗（被 #save 盖住）",
+            "我的作品（被 #exportPhoto 盖住）"
+          ],
+          "items": [
+            "预览 ↗（被 #exportPhoto 盖住）",
+            "再做一件 ↗（被 #save 盖住）",
+            "我的作品（被 #exportPhoto 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.72,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "photo",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 28,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 1,
+          "samples": [
+            "竖幅 4:5（button）/ 收藏这件作品（#save）"
+          ],
+          "items": [
+            "竖幅 4:5（button）/ 收藏这件作品（#save）"
+          ]
+        },
+        "occluded": {
+          "count": 2,
+          "samples": [
+            "竖幅 4:5（被 #save 盖住）",
+            "方形 1:1（被 #save 盖住）"
+          ],
+          "items": [
+            "竖幅 4:5（被 #save 盖住）",
+            "方形 1:1（被 #save 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.75,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "photo",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 21,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "拖动方式（被 #save 盖住）",
+            "移动视角（被 #exportPhoto 盖住）",
+            "转动器物（被 #exportPhoto 盖住）"
+          ],
+          "items": [
+            "拖动方式（被 #save 盖住）",
+            "移动视角（被 #exportPhoto 盖住）",
+            "转动器物（被 #exportPhoto 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.7,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "observe",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.96,
+        "overflowX": false,
+        "textCount": 40,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.18,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "observe",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.97,
+        "overflowX": false,
+        "textCount": 40,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 2,
+          "samples": [
+            "烧成小记（被 div.result-actions 盖住）",
+            "器物小记（被 div.result-actions 盖住）"
+          ],
+          "items": [
+            "烧成小记（被 div.result-actions 盖住）",
+            "器物小记（被 div.result-actions 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.2,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "observe",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 25,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "全貌（被 #portraitActions 盖住）",
+            "釉面特写（被 #portraitActions 盖住）",
+            "俯视（被 #portraitActions 盖住）"
+          ],
+          "items": [
+            "全貌（被 #portraitActions 盖住）",
+            "釉面特写（被 #portraitActions 盖住）",
+            "俯视（被 #portraitActions 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.74,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "observe",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 25,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 4,
+          "samples": [
+            "观察（被 #save 盖住）",
+            "全貌（被 #save 盖住）",
+            "釉面特写（被 div.result-actions 盖住）",
+            "俯视（被 #inspectGoPhoto 盖住）"
+          ],
+          "items": [
+            "观察（被 #save 盖住）",
+            "全貌（被 #save 盖住）",
+            "釉面特写（被 div.result-actions 盖住）",
+            "俯视（被 #inspectGoPhoto 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.75,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "observe",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 17,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 1,
+          "samples": [
+            "光照（被 #save 盖住）"
+          ],
+          "items": [
+            "光照（被 #save 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.7,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "compare",
+      "width": 1440,
+      "height": 810,
+      "layout": {
+        "viewport": [
+          1440,
+          810
+        ],
+        "mode": null,
+        "scrollHeight": 810,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.93,
+        "overflowX": false,
+        "textCount": 44,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.2,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "compare",
+      "width": 1024,
+      "height": 768,
+      "layout": {
+        "viewport": [
+          1024,
+          768
+        ],
+        "mode": null,
+        "scrollHeight": 768,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 0.94,
+        "overflowX": false,
+        "textCount": 46,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "只看烧前（被 #save 盖住）",
+            "只看烧后（被 div.result-actions 盖住）",
+            "只看快冷（被 #exportComparison 盖住）"
+          ],
+          "items": [
+            "只看烧前（被 #save 盖住）",
+            "只看烧后（被 div.result-actions 盖住）",
+            "只看快冷（被 #exportComparison 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.22,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "compare",
+      "width": 768,
+      "height": 1024,
+      "layout": {
+        "viewport": [
+          768,
+          1024
+        ],
+        "mode": null,
+        "scrollHeight": 1024,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 29,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 2,
+          "samples": [
+            "细看流釉的边界（被 #portraitActions 盖住）",
+            "拖动分界线，对照同一处。（被 #save 盖住）"
+          ],
+          "items": [
+            "细看流釉的边界（被 #portraitActions 盖住）",
+            "拖动分界线，对照同一处。（被 #save 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.85,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "compare",
+      "width": 390,
+      "height": 753,
+      "layout": {
+        "viewport": [
+          390,
+          753
+        ],
+        "mode": null,
+        "scrollHeight": 753,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 28,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 1,
+          "samples": [
+            "纹理（b）/ 收藏这件作品（#save）"
+          ],
+          "items": [
+            "纹理（b）/ 收藏这件作品（#save）"
+          ]
+        },
+        "occluded": {
+          "count": 3,
+          "samples": [
+            "03（被 #save 盖住）",
+            "纹理（被 #save 盖住）",
+            "细看流釉的边界（被 #save 盖住）"
+          ],
+          "items": [
+            "03（被 #save 盖住）",
+            "纹理（被 #save 盖住）",
+            "细看流釉的边界（被 #save 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.8,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    },
+    {
+      "stage": "compare",
+      "width": 352,
+      "height": 447,
+      "layout": {
+        "viewport": [
+          352,
+          447
+        ],
+        "mode": null,
+        "scrollHeight": 447,
+        "verticalOverflow": false,
+        "scrollTail": false,
+        "narrowScroll": false,
+        "contentWidthRatio": 1,
+        "overflowX": false,
+        "textCount": 20,
+        "minFontSize": 12,
+        "topInset": 0,
+        "minText": 12,
+        "smallText": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "minBodyText": 14,
+        "smallBody": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "smallInputs": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "overlaps": {
+          "count": 0,
+          "samples": [],
+          "items": []
+        },
+        "occluded": {
+          "count": 2,
+          "samples": [
+            "烧前 / 烧后（被 #save 盖住）",
+            "冷却对照（被 #exportComparison 盖住）"
+          ],
+          "items": [
+            "烧前 / 烧后（被 #save 盖住）",
+            "冷却对照（被 #exportComparison 盖住）"
+          ]
+        },
+        "offscreen": {
+          "count": 0,
+          "samples": []
+        },
+        "coverage": 0.74,
+        "unrevealed": {
+          "count": 0,
+          "samples": []
+        },
+        "smallTargets": {
+          "count": 0,
+          "samples": [],
+          "items": [],
+          "minSize": 44
+        }
+      }
+    }
+  ]
+}

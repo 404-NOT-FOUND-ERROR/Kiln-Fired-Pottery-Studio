@@ -1,0 +1,254 @@
+/* Compact shared controls; the photographic plate remains separate from the live vessel. */
+:root{--quiet-panel:linear-gradient(130deg,#fffaf1b5,#eee5d8a3);--quiet-border:#ffffffbf;--quiet-ink:#4c4035;--quiet-muted:#92816f}
+/* Preparation keeps the same inset and type hierarchy as the surrounding steps.
+   Scope to its desktop parent; the portrait workbench moves this node elsewhere. */
+.selection-controls.is-preparing #preparationPanel{display:flex;flex:1;flex-direction:column;justify-content:flex-start;align-items:stretch;height:auto;min-height:0;gap:0;padding:0}
+.selection-controls.is-preparing #preparationPanel>.workshop-kicker{font:400 13px/1.5 var(--studio-serif);letter-spacing:.12em;color:#8b725c;margin:0 0 16px;white-space:normal}
+.selection-controls.is-preparing #preparationPanel .preparation-time{width:clamp(86px,18svh,148px);height:clamp(86px,18svh,148px);margin:0 0 18px -3px;flex:none}
+.selection-controls.is-preparing #prepareTitle{font:400 clamp(23px,2vw,30px)/1.4 var(--studio-serif);letter-spacing:.025em;color:var(--quiet-ink);margin:0}
+.selection-controls.is-preparing #prepareCopy{font:14px/1.7 var(--studio-serif);color:#8b7762;margin:8px 0 18px}
+.selection-controls.is-preparing #preparationPanel .process-tip{flex:1;min-height:0;padding-top:16px;margin:0;border-top:1px solid #957b5933}
+.selection-controls.is-preparing #preparationPanel .process-tip>small{font:12px/1.5 var(--studio-serif);color:#8b7762;letter-spacing:.08em}
+.selection-controls.is-preparing #prepareTip{font:14px/1.75 var(--studio-serif);color:#806c53;min-height:0;margin:8px 0 0;overflow-wrap:anywhere}
+.selection-controls.is-preparing #cancelPreparation{font:12px/1.5 var(--studio-serif);align-self:flex-start;margin:16px 0 0;padding:7px 0;min-height:32px;flex:none}
+@media(min-width:901px) and (max-height:700px){
+ .selection-controls.is-preparing #preparationPanel>.workshop-kicker{margin-bottom:10px}
+ .selection-controls.is-preparing #preparationPanel .preparation-time{height:96px;width:96px;margin-bottom:12px}
+ .selection-controls.is-preparing #prepareCopy{margin:6px 0 13px}
+ .selection-controls.is-preparing #preparationPanel .process-tip{padding-top:12px}
+ .selection-controls.is-preparing #cancelPreparation{margin-top:10px}
+}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls,
+body[data-studio-step="2"] #workbenchOptions{right:2.6%;top:4.5svh;bottom:auto;width:28.7vw;max-width:430px;min-width:290px;height:min(600px,76svh);padding:24px 26px;border:1px solid var(--quiet-border);border-radius:22px;background:var(--quiet-panel);backdrop-filter:blur(20px);box-shadow:0 12px 38px #5d493308,inset 0 1px 0 #fff8;overflow:visible;display:flex;flex-direction:column;gap:0}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls{height:min(555px,73svh)}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls .screen-head .workshop-kicker,
+body[data-studio-step="2"] #workbenchOptions .paint-stage-head .workshop-kicker{font:400 13px/1.5 var(--studio-serif);letter-spacing:.12em;margin:0 0 13px;color:#8b725c;white-space:nowrap}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls .screen-head h1,
+body[data-studio-step="2"] #workbenchOptions .paint-stage-head h1{font:400 clamp(23px,2vw,32px)/1.4 var(--studio-serif);letter-spacing:.025em;margin:0 0 15px;color:var(--quiet-ink)}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls .subline{font:400 13px/1.8 var(--studio-serif);margin:0;color:#948474}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls-body{margin-top:22px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-info h2{font:400 19px/1.5 var(--studio-serif);padding-top:19px;margin:0 0 17px;letter-spacing:0}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements{font:12px/1.5 var(--studio-serif);padding-bottom:19px;gap:7px}
+body[data-studio-step="1"][data-making-phase=sculpt] #clayStatus{font:15px/1.5 var(--studio-serif);margin:20px 0}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-strength{font:12px/1.5 var(--studio-serif);gap:12px;grid-template-columns:auto 1fr 35px}
+body[data-studio-step="1"][data-making-phase=sculpt] #app .selection-controls .actions{padding-top:18px;margin-top:auto}
+body[data-studio-step="1"][data-making-phase=sculpt] #app .selection-controls .actions #toPaint{height:52px;min-height:45px;font-size:15px;border-radius:12px}
+body[data-studio-step="1"][data-making-phase=sculpt] .selection-stage{left:10%;right:30%;top:5svh;bottom:21svh}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-dock{left:44%;width:46%;min-width:480px;max-width:750px;bottom:11.8svh;height:74px;min-height:0;border-radius:21px;padding:5px 10px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-dock>[data-sculpt],body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-utilities button{font:12px/1.4 var(--studio-serif);gap:5px;padding:5px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-dock svg{width:23px;height:23px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius{left:2.8%;top:13svh;width:65px;min-width:0;height:28svh;max-height:280px;padding:17px 8px;font:11px/1.5 var(--studio-serif);border-radius:20px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius input{height:18svh;min-height:85px}
+body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius small{font-size:11px}
+
+/* Painting follows the approved A composition, with a context card in the left margin. */
+body[data-studio-step="2"] .quiet-workbench .paint-stage{position:fixed;left:10%;right:30%;top:5svh;bottom:26svh;inset-inline:10% 30%;min-height:0;margin:0}
+body[data-studio-step="2"] .quiet-workbench .paint-canvas-wrap,body[data-studio-step="2"] #paintView{height:100%;min-height:0}
+body[data-studio-step="2"] #workbenchOptions .paint-stage-head{position:static;inset:auto;text-align:left;margin:0 0 8px;width:auto;pointer-events:auto}
+body[data-studio-step="2"] #workbenchOptions .paint-stage-head h1{margin-bottom:0;line-height:1.25}
+body[data-studio-step="2"] #workbenchOptions .paint-stage-head .subline,body[data-studio-step="2"] #workbenchOptions .paint-stage-kicker,body[data-studio-step="2"] #workbenchOptions .tag{display:none}
+body[data-studio-step="2"] #workbenchOptions .decoration-switch{display:grid;grid-template-columns:1fr 1fr;gap:3px;border:1px solid #fff9;border-radius:12px;padding:3px;margin:0 0 20px;background:#fff2}
+body[data-studio-step="2"] #workbenchOptions .decoration-switch button{font:14px/1.5 var(--studio-serif);min-height:38px;border:0;border-radius:9px;padding:7px;background:transparent;color:var(--quiet-ink)}
+body[data-studio-step="2"] #workbenchOptions .decoration-switch button[aria-pressed=true]{background:#9a8572;color:#fffaf2}
+body[data-studio-step="2"] #workbenchOptions .glaze-finishes{border-top:1px solid var(--light-line);border-bottom:1px solid var(--light-line);padding:15px 0;margin:0 0 19px}
+body[data-studio-step="2"] #workbenchOptions .glaze-finishes>span{display:none}
+body[data-studio-step="2"] #workbenchOptions .glaze-finishes>div{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+body[data-studio-step="2"] #workbenchOptions .glaze-finishes button canvas{border-radius:8px;box-shadow:0 0 0 1px #9e87731a}
+body[data-studio-step="2"] #workbenchOptions [data-glaze-finish]{display:flex;flex-direction:column;align-items:center;padding:3px 2px 5px;min-height:0;gap:5px;border:1px solid transparent;border-radius:10px;background:transparent;box-shadow:none;color:var(--quiet-ink);font:13px/1.5 var(--studio-serif)}
+body[data-studio-step="2"] #workbenchOptions [data-glaze-finish] canvas{display:block;width:100%;max-width:70px;height:auto;aspect-ratio:144/136;object-fit:contain;border:0;border-radius:0}
+body[data-studio-step="2"] #workbenchOptions [data-glaze-finish][aria-pressed=true]{border-color:#9c846b85;background:#c6b09818;grid-column:auto;padding:3px 2px 5px!important}
+body[data-studio-step="2"] #workbenchOptions .firing-settings{display:block;margin:0;padding:0;border:0}
+body[data-studio-step="2"] #workbenchOptions .firing-settings>summary{font:12px/1.5 var(--studio-serif);margin:0 0 10px;padding:0;pointer-events:none;list-style:none}
+body[data-studio-step="2"] #workbenchOptions #firingSettingsSummary,body[data-studio-step="2"] #workbenchOptions .section-title,body[data-studio-step="2"] #workbenchOptions .option-lesson{display:none}
+body[data-studio-step="2"] #workbenchOptions .control-section{padding:0;border:0;margin:0}
+body[data-studio-step="2"] #workbenchOptions .process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:0}
+body[data-studio-step="2"] #workbenchOptions .process-grid button{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:7px 3px;min-height:48px;border:1px solid var(--light-line);border-radius:9px;background:#fff1;color:var(--quiet-ink)}
+body[data-studio-step="2"] #workbenchOptions .process-grid b{font:13px/1.5 var(--studio-serif)}
+body[data-studio-step="2"] #workbenchOptions .process-grid small{float:none;font:10px/1.5 Georgia,serif;color:var(--quiet-muted)}
+body[data-studio-step="2"] #workbenchOptions .process-grid [aria-pressed=true]{background:#9a8572;color:#fffaf2;border-color:transparent}
+body[data-studio-step="2"] #workbenchOptions .process-grid [aria-pressed=true] small{color:#fff4e4b0}
+body[data-studio-step="2"] #workbenchOptions .cooling{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:13px 0 0}
+body[data-studio-step="2"] #workbenchOptions .cooling button{font:12px/1.5 var(--studio-serif);min-height:34px;padding:5px;border:1px solid var(--light-line);background:#fff1;border-radius:9px;color:var(--quiet-ink)}
+body[data-studio-step="2"] #workbenchOptions .cooling [aria-pressed=true]{background:#9a8572;color:#fffaf2;border-color:transparent}
+body[data-studio-step="2"] #workbenchOptions .workbench-fire{position:static;inset:auto;margin-top:auto;padding-top:18px;width:100%;z-index:auto}
+body[data-studio-step="2"] #workbenchOptions #toResult{height:49px;min-height:44px;width:100%;border-radius:12px;font:14px/1.5 var(--studio-serif)}
+body[data-studio-step="2"] #workbenchOptions .workbench-back{position:static;display:block;font:11px/1.5 var(--studio-serif);padding:9px 0 0;min-height:24px;text-align:center;background:none;border:0;color:var(--quiet-muted);margin:0}
+body[data-studio-step="2"] #workbenchOptions #backToSelect{font:11px/1.5 var(--studio-serif)!important;padding:0!important;min-height:18px;height:18px;margin:7px 0 0!important;border:0;background:none;box-shadow:none}
+body[data-studio-step="2"] #workbenchOptions [data-glaze-finish]>span{align-self:center}
+body[data-studio-step="2"] #workbenchOptions [data-glaze-finish] canvas{margin:0}
+body[data-studio-step="2"] #workbenchOptions .clear-glaze-row{padding:0;margin:0 0 14px;border:0}
+body[data-studio-step="2"] #workbenchOptions .clear-glaze-row button{font:11px/1.5 var(--studio-serif);padding:7px 12px;min-height:30px;border:1px solid var(--light-line);background:#fff2;border-radius:9px;color:var(--quiet-ink)}
+body[data-studio-step="2"] #workbenchOptions #clearGlazeStatus,body[data-studio-step="2"] #workbenchOptions #finishMaterialNote,body[data-studio-step="2"] .paint-stage-foot,body[data-studio-step="2"] #canvasGuide,body[data-studio-step="2"] #paintViewTip{display:none!important}
+body[data-studio-step="2"] .quiet-workbench [hidden],.context-guide[hidden]{display:none!important}
+body[data-studio-step="2"] #workbenchOptions .firing-settings>summary::after{display:none}
+body[data-studio-step="2"] .paint-stage #paintHint{display:none}
+body[data-studio-step="2"] .workbench-tools{left:2.8%;top:13svh;bottom:auto;width:118px;height:28svh;max-height:280px;padding:15px 10px;border-radius:20px;overflow:visible!important;background:var(--quiet-panel);border:1px solid var(--quiet-border)}
+body[data-studio-step="2"] .workbench-tools .basic-brush-controls{display:flex;justify-content:space-around;gap:15px;border:0;padding:0;margin:0}
+body[data-studio-step="2"] .workbench-tools .basic-brush-controls label{font:11px/1.5 var(--studio-serif);display:flex;flex-direction:column;gap:9px;align-items:center;color:var(--quiet-ink)}
+body[data-studio-step="2"] .workbench-tools .basic-brush-controls label span{font-weight:400}
+body[data-studio-step="2"] .workbench-tools .basic-brush-controls input[type=range]{height:17svh;max-height:160px;width:24px;margin:0;padding:0;writing-mode:vertical-lr;direction:rtl}
+body[data-studio-step="2"] .workbench-tools input[type=range]{appearance:none;background:#d6c5b1;border-radius:5px;width:7px!important;accent-color:#a08771}
+body[data-studio-step="2"] .workbench-tools input[type=range]::-webkit-slider-thumb{appearance:none;width:21px;height:21px;border:0;border-radius:50%;background:#fffaf3;box-shadow:0 2px 6px #6e503628}
+body[data-studio-step="2"] .workbench-tools output{font:10px/1.5 Georgia,serif;color:var(--quiet-muted)}
+body[data-studio-step="2"] .quiet-brush-presets{position:absolute;top:calc(100% + 9px);left:0;right:0;padding:5px;border:1px solid var(--quiet-border);border-radius:11px;background:var(--quiet-panel);backdrop-filter:blur(20px)}
+body[data-studio-step="2"] .quiet-brush-presets .brush-row{display:flex;gap:2px;margin:0}
+body[data-studio-step="2"] .quiet-brush-presets .brush{min-width:0;min-height:25px;flex:1;margin:0;padding:3px 1px;border:0;border-radius:7px;font:9px/1.5 var(--studio-serif);background:none;display:block}
+body[data-studio-step="2"] .quiet-brush-presets .brush i,body[data-studio-step="2"] .quiet-brush-presets .brush small{display:none}
+body[data-studio-step="2"] .quiet-brush-presets .brush[aria-pressed=true]{background:#baa18530}
+body[data-studio-step="2"] .quiet-paint-dock{position:fixed;display:flex!important;align-items:center;justify-content:space-between;left:12%;right:33%;top:auto;bottom:19.2svh;width:auto;height:66px;min-height:0;margin:0;padding:5px 8px;z-index:6;border:1px solid var(--quiet-border);border-radius:19px;background:var(--quiet-panel);backdrop-filter:blur(20px);box-shadow:0 8px 30px #5d493308}
+body[data-studio-step="2"] .quiet-paint-dock :is(.tool-switch,.pattern-tools,.primer-grid,.workbench-history){display:flex;align-items:center;gap:2px;border:0;margin:0;padding:0;position:static;inset:auto}
+body[data-studio-step="2"] .quiet-paint-dock .tool-switch{flex:2}.quiet-paint-dock .pattern-tools{flex:3}.quiet-paint-dock .dock-methods{flex:4}.quiet-paint-dock .workbench-history{flex:2}
+body[data-studio-step="2"] .quiet-paint-dock .dock-methods{padding:0;margin:0;border:0;background:none;position:static;inset:auto}
+body[data-studio-step="2"] .quiet-paint-dock .glaze-base-row{flex:1;border:0;margin:0;padding:0}
+body[data-studio-step="2"] #app .quiet-paint-dock button{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:4px;flex:1;min-width:0;width:auto;min-height:53px;height:53px;padding:4px 3px;margin:0;border:1px solid transparent;border-radius:9px;background:none;color:var(--quiet-ink);font:11px/1.4 var(--studio-serif);white-space:nowrap;box-shadow:none}
+body[data-studio-step="2"] .quiet-paint-dock svg{width:23px;height:23px;margin:0}
+body[data-studio-step="2"] .quiet-paint-dock .primer-card strong{font:11px/1.4 var(--studio-serif)}
+body[data-studio-step="2"] .quiet-paint-dock .primer-diagram{width:30px;height:23px;color:var(--quiet-ink)}
+body[data-studio-step="2"] .quiet-paint-dock .primer-diagram path{fill:none;stroke:currentColor;stroke-width:1.4}
+body[data-studio-step="2"] #app .quiet-paint-dock button[aria-pressed=true]{background:#9b8572;color:#fff8ee;border-color:transparent}
+body[data-studio-step="2"] #app .quiet-paint-dock button:disabled{opacity:.4}
+body[data-studio-step="2"] .workbench-colors{left:12%;right:33%;bottom:10svh;max-width:none;width:auto;height:59px;margin:0;padding:8px 12px;overflow:visible;border-radius:17px;background:var(--quiet-panel);border:1px solid var(--quiet-border);display:flex;align-items:start;justify-content:center}
+body[data-studio-step="2"] .workbench-colors .palette{width:100%;display:flex;justify-content:space-between;align-items:center;gap:5px;margin:0;padding:0;overflow:visible}
+body[data-studio-step="2"] .workbench-colors .swatch{flex:1;min-width:0;width:auto;padding:0;margin:0;font-size:0;background:none;border:0;display:block;border-radius:50%;min-height:0;max-width:32px;height:auto}
+body[data-studio-step="2"] .workbench-colors .swatch i{width:min(1.85vw,28px);height:min(1.85vw,28px);margin:0;border:1px solid #fff8;border-radius:50%;display:block;box-shadow:inset 0 0 0 1px #ad998326}
+body[data-studio-step="2"] .workbench-colors .swatch[aria-pressed=true] i{outline:1px solid #92765a;outline-offset:3px}
+body[data-studio-step="2"] .workbench-colors .custom-swatch{position:relative;max-width:28px}
+body[data-studio-step="2"] .workbench-colors .custom-swatch i:after{content:'+';font:17px/1.5 Georgia,serif;color:var(--quiet-ink);position:absolute;inset:0;text-align:center}
+body[data-studio-step="2"] .workbench-colors .custom-swatch input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer}
+body[data-studio-step="2"] .active-color-name{position:absolute;bottom:4px;left:15px;font:10px/1.3 var(--studio-serif);color:var(--quiet-muted)}
+body[data-studio-step="2"] .paint-method-controls{position:fixed;left:2.8%;top:46svh;width:clamp(160px,17vw,230px);padding:11px 14px;background:var(--quiet-panel);border:1px solid var(--quiet-border);border-radius:14px;backdrop-filter:blur(20px);z-index:6}
+body[data-studio-step="2"] .paint-method-controls:not(:has(.technique-adjustment:not([hidden]))),body[data-studio-step="2"] .paint-method-controls:has(.pour-adjustment:not([hidden])){display:none}
+body[data-studio-step="2"] .paint-method-controls .technique-adjustment{padding:0;border:0;margin:0;background:none}
+body[data-studio-step="2"] .paint-method-controls label{display:block;font:11px/1.5 var(--studio-serif);margin:0 0 3px;color:var(--quiet-muted)}
+body[data-studio-step="2"] .paint-method-controls label b{float:right;font-weight:400}
+body[data-studio-step="2"] .paint-method-controls input{width:100%;height:19px;margin:2px 0 5px}
+body[data-studio-step="2"] .paint-method-controls button{width:100%;padding:4px;min-height:27px;font:11px/1.4 var(--studio-serif);border:1px solid var(--light-line);border-radius:7px;background:#fff2;color:var(--quiet-ink)}
+
+.context-guide{position:fixed;left:2.8%;top:50svh;width:clamp(180px,17.5vw,255px);padding:14px 16px;border:1px solid var(--quiet-border);border-radius:17px;background:var(--quiet-panel);backdrop-filter:blur(20px);box-shadow:0 10px 30px #5d493308;color:var(--quiet-ink);z-index:7}
+.context-guide header{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 7px}
+.context-guide h2{font:400 18px/1.4 var(--studio-serif);margin:0;letter-spacing:.02em}
+.context-guide header button{background:none;border:0;color:#8d7763;padding:0 4px;font:20px/1.2 Georgia,serif;min-width:24px;min-height:24px;cursor:pointer}
+.context-guide p{font:12px/1.7 var(--studio-serif);margin:0 0 9px;color:#887461}
+.guide-samples{display:grid;grid-template-columns:1fr 12px 1fr;align-items:center;gap:5px}.guide-samples figure{margin:0;min-width:0}.guide-samples canvas{width:100%;height:auto;border-radius:11px;border:1px solid #fff8;display:block}.guide-samples figcaption{font:10px/1.6 var(--studio-serif);text-align:center;margin-top:4px;color:#887461}.guide-samples>span{font-size:13px;color:#947c64}.guide-caption{font:10px/1.4 var(--studio-serif);color:#a08a72;display:block;text-align:center;margin-top:4px}
+.guide-diagram svg{width:100%;height:67px;display:block;color:#b8a38d}.guide-accent{stroke:#876144;stroke-width:2}.guide-diagram span{display:block;text-align:center;font:10px/1.5 var(--studio-serif);color:#947c64;margin-top:3px}
+body:has(.is-preparing) .context-guide,body:not([data-studio-step="1"]):not([data-studio-step="2"]) .context-guide{display:none!important}
+@media(min-width:901px) and (max-height:800px){
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls,body[data-studio-step="2"] #workbenchOptions{padding:20px 22px;bottom:auto}
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls-body{margin-top:15px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-info h2{padding-top:15px;margin-bottom:13px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements{font-size:11px;padding-bottom:14px}
+ body[data-studio-step="1"][data-making-phase=sculpt] #clayStatus{margin:15px 0}
+ body[data-studio-step="2"] #workbenchOptions .decoration-switch{margin-bottom:13px}
+ body[data-studio-step="2"] #workbenchOptions .glaze-finishes{padding:10px 0;margin-bottom:13px}
+ body[data-studio-step="2"] .quiet-paint-dock{height:58px;bottom:19svh}
+ body[data-studio-step="2"] #app .quiet-paint-dock button{height:45px;min-height:45px;font-size:10px;gap:3px;padding:3px 1px}
+ body[data-studio-step="2"] .quiet-paint-dock svg{width:20px;height:20px}
+ body[data-studio-step="2"] .quiet-paint-dock .primer-card strong{font-size:10px}
+ body[data-studio-step="2"] .workbench-colors{height:52px;padding:7px 10px;bottom:10svh}
+ .context-guide{top:49svh;padding:11px 13px}.context-guide h2{font-size:16px}.context-guide p{font-size:11px;margin-bottom:7px}.guide-diagram svg{height:52px}.guide-samples canvas{max-height:52px;object-fit:cover}.guide-caption{margin-top:2px}
+ body[data-studio-step="2"] .paint-method-controls{top:46svh;padding:8px 10px}
+}
+@media(min-width:901px) and (max-width:1200px){
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls,body[data-studio-step="2"] #workbenchOptions{padding:20px;width:30%;min-width:0}
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls .subline{font-size:11px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements{font-size:10px}
+ body[data-studio-step="2"] .quiet-paint-dock{left:9%;right:34%;padding:4px}
+ body[data-studio-step="2"] .workbench-colors{left:9%;right:34%}
+ body[data-studio-step="2"] .workbench-tools{width:95px;padding:13px 5px}
+ body[data-studio-step="2"] .workbench-tools .basic-brush-controls{gap:5px}
+ .context-guide{width:180px;left:2.5%}
+}
+/* Keep the same desktop composition when the embedded browser is short.
+   Reserve room for the additional transparent-glaze row in painting mode. */
+@media(min-width:901px) and (max-height:740px){
+ body[data-studio-step="2"] #workbenchOptions .paint-stage-head{margin-bottom:6px}
+ body[data-studio-step="2"] #workbenchOptions .paint-stage-head .workshop-kicker{margin-bottom:8px}
+ body[data-studio-step="2"] #workbenchOptions .decoration-switch{margin-bottom:10px}
+ body[data-studio-step="2"] #workbenchOptions .decoration-switch button{min-height:34px;padding:5px}
+ body[data-studio-step="2"] #workbenchOptions .glaze-finishes{padding:8px 0}
+ body[data-studio-step="2"] #workbenchOptions [data-glaze-finish] canvas{max-width:56px}
+ body[data-studio-step="2"] #workbenchOptions .clear-glaze-row{margin-bottom:8px}
+ body[data-studio-step="2"] #workbenchOptions .clear-glaze-row button{min-height:28px;padding:5px 10px}
+ body[data-studio-step="2"] #workbenchOptions .firing-settings>summary{margin-bottom:8px}
+ body[data-studio-step="2"] #workbenchOptions .process-grid button{min-height:46px;padding:5px 3px}
+ body[data-studio-step="2"] #workbenchOptions .process-grid small{margin-top:2px}
+ body[data-studio-step="2"] #workbenchOptions .cooling{margin-top:8px}
+ body[data-studio-step="2"] #workbenchOptions .cooling button{min-height:32px}
+ body[data-studio-step="2"] #workbenchOptions .workbench-fire{padding-top:12px}
+ body[data-studio-step="2"] #workbenchOptions #toResult{height:44px}
+}
+@media(max-width:900px){
+ body[data-studio-step="2"] .quiet-workbench{position:relative;display:flex;flex-direction:column;height:auto}
+ body[data-studio-step="2"] .quiet-workbench .paint-stage{order:0}
+ body[data-studio-step="2"] .quiet-paint-dock{order:1}
+ body[data-studio-step="2"] .workbench-colors{order:2}
+ body[data-studio-step="2"] .paint-method-controls{order:3}
+ body[data-studio-step="2"] #workbenchOptions{order:4}
+ body[data-studio-step="2"] .paint-stage .workshop-camera{position:absolute;top:auto;bottom:8px;right:12px;max-width:calc(100% - 24px)}
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-stage{position:relative;inset:auto;height:365px;min-height:365px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .selection-controls,body[data-studio-step="2"] #workbenchOptions{position:relative;inset:auto;width:auto;max-width:none;min-width:0;height:auto;margin:18px 14px 100px;padding:22px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-dock{position:absolute;left:50%;bottom:0;transform:translateX(-50%);width:calc(100% - 20px);min-width:0;height:64px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-dock>[data-sculpt],body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-utilities button{font-size:10px;padding:4px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius{position:absolute;left:10px;top:45px;width:45px;height:165px;padding:10px 4px;font-size:9px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-radius input{height:97px;min-height:0}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;white-space:normal;font-size:10px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements span{display:flex;flex-direction:column;gap:4px}
+ body[data-studio-step="1"][data-making-phase=sculpt] .sculpt-measurements b{font-size:13px}
+ body[data-studio-step="2"] .quiet-workbench .paint-stage{position:relative;inset:auto;height:370px;min-height:370px;margin:0;width:100%}
+ body[data-studio-step="2"] .quiet-workbench .paint-canvas-wrap,body[data-studio-step="2"] #paintView{height:100%;min-height:0}
+ body[data-studio-step="2"] .workbench-tools{position:absolute;left:9px;top:55px;width:76px;height:175px;padding:10px 5px;z-index:6}
+ body[data-studio-step="2"] .workbench-tools .basic-brush-controls{gap:4px}
+ body[data-studio-step="2"] .workbench-tools .basic-brush-controls label{font-size:9px;gap:5px;position:static}
+ body[data-studio-step="2"] .workbench-tools output{position:static;font-size:9px}
+ body[data-studio-step="2"] .quiet-brush-presets .brush{white-space:nowrap;font-size:9px}
+ body[data-studio-step="2"] .workbench-tools .basic-brush-controls input[type=range]{height:115px;width:20px}
+ body[data-studio-step="2"] .quiet-paint-dock{position:relative;inset:auto;height:auto;min-height:55px;display:flex;flex-wrap:wrap;width:calc(100% - 24px);margin:12px;gap:5px;padding:6px}
+ body[data-studio-step="2"] .quiet-paint-dock .tool-switch{flex:2}.quiet-paint-dock .pattern-tools{flex:3}.quiet-paint-dock .dock-methods{flex:4}.quiet-paint-dock .workbench-history{flex:2}
+ body[data-studio-step="2"] .quiet-paint-dock .dock-methods{flex-basis:40%}
+ body[data-studio-step="2"] #app .quiet-paint-dock button{font-size:10px;min-height:44px;height:44px;padding:3px;min-width:25px;gap:3px}
+ body[data-studio-step="2"] .quiet-paint-dock svg{width:19px;height:19px}.quiet-paint-dock .primer-card strong{font-size:10px!important}
+ body[data-studio-step="2"] .workbench-colors{position:relative;inset:auto;height:auto;min-height:59px;width:calc(100% - 24px);margin:12px;padding:12px 10px 23px}
+ body[data-studio-step="2"] .workbench-colors .palette{display:grid;grid-template-columns:repeat(10,1fr);gap:9px 6px}
+ body[data-studio-step="2"] .workbench-colors .swatch i{width:22px;height:22px}
+ body[data-studio-step="2"] #workbenchOptions{margin-top:12px;margin-bottom:110px}
+ body[data-studio-step="2"] #workbenchOptions .workbench-fire{margin-top:15px}
+ body[data-studio-step="2"] .paint-method-controls{position:relative;inset:auto;width:calc(100% - 28px);margin:14px;max-width:350px}
+ .context-guide{position:fixed;left:auto;right:12px;top:95px!important;width:185px;padding:12px;max-width:calc(100vw - 100px);z-index:8}
+ .context-guide h2{font-size:16px}.context-guide p{font-size:11px}.guide-diagram svg{height:50px}
+ body[data-studio-step="2"] #toggleKilnOptions{display:none}
+}
+
+/* One rail owns the vertical layout. Its input stack stays anchored above the dock. */
+.paint-left-rail,.paint-input-stack{display:contents}
+@media(min-width:901px){
+ body[data-studio-step="2"] .paint-left-rail{display:flex;flex-direction:column;gap:14px;position:fixed;left:2.8%;top:5.5svh;bottom:calc(19.2svh + 84px);width:clamp(180px,17.5vw,255px);pointer-events:none;z-index:7}
+ body[data-studio-step="2"] .paint-left-rail #contextGuide{position:relative;inset:auto;width:100%;max-width:none;margin:0;flex:none;pointer-events:auto}
+ body[data-studio-step="2"] .paint-left-rail .guide-samples canvas{max-height:62px;object-fit:contain}
+ body[data-studio-step="2"] .paint-input-stack{display:flex;flex-direction:column;align-items:flex-start;gap:12px;margin-top:auto;padding-bottom:38px;pointer-events:none;flex:none}
+ body[data-studio-step="2"] .paint-left-rail .paint-method-controls{position:relative;inset:auto;flex:none;width:100%;max-width:none;margin:0;padding:10px 13px;pointer-events:auto}
+ body[data-studio-step="2"] .paint-left-rail .workbench-tools{position:relative;inset:auto;flex:none;width:118px;height:auto;max-height:none;margin:0;padding:12px 10px;pointer-events:auto}
+ body[data-studio-step="2"] .paint-left-rail .basic-brush-controls{gap:12px}
+ body[data-studio-step="2"] .paint-left-rail .basic-brush-controls label{gap:7px;margin:0}
+ body[data-studio-step="2"] .paint-left-rail .basic-brush-controls input[type=range]{height:clamp(90px,13svh,145px);max-height:none}
+}
+@media(min-width:901px) and (max-height:850px){
+ body[data-studio-step="2"] .paint-left-rail{gap:10px;bottom:calc(19svh + 74px)}
+ body[data-studio-step="2"] .paint-left-rail #contextGuide{padding:10px 12px}
+ body[data-studio-step="2"] .paint-left-rail #contextGuide header{margin-bottom:5px}
+ body[data-studio-step="2"] .paint-left-rail #contextGuide p{line-height:1.6;margin-bottom:6px}
+ body[data-studio-step="2"] .paint-left-rail .guide-diagram svg{height:44px}
+ body[data-studio-step="2"] .paint-left-rail .guide-samples canvas{max-height:44px}
+ body[data-studio-step="2"] .paint-left-rail .paint-method-controls{padding:8px 11px}
+ body[data-studio-step="2"] .paint-left-rail .workbench-tools{padding:10px 8px}
+ body[data-studio-step="2"] .paint-left-rail .basic-brush-controls input[type=range]{height:10svh;min-height:64px}
+}
+@media(min-width:901px) and (max-height:690px){
+ body[data-studio-step="2"] .paint-left-rail{gap:8px;top:4svh}
+ body[data-studio-step="2"] .paint-input-stack{gap:8px}
+ body[data-studio-step="2"] .paint-left-rail #contextGuide{padding:8px 11px}
+ body[data-studio-step="2"] .paint-left-rail .guide-diagram svg{height:30px}
+ body[data-studio-step="2"] .paint-left-rail .guide-samples canvas{max-height:30px}
+ body[data-studio-step="2"] .paint-left-rail .paint-method-controls{padding:7px 11px}
+ body[data-studio-step="2"] .paint-left-rail .workbench-tools{padding:8px}
+ body[data-studio-step="2"] .paint-left-rail .basic-brush-controls input[type=range]{height:54px;min-height:0}
+}

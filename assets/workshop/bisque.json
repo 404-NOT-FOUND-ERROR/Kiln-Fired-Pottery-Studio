@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "jar": {
+    "file": "bisque-jar.bin",
+    "vertices": 22504,
+    "indices": 133056,
+    "stride": 8,
+    "bytes": 1252352
+  },
+  "albedo": "bisque-albedo.webp",
+  "normal": "bisque-normal.webp",
+  "roughness": "bisque-roughness.webp",
+  "ao": "bisque-ao.webp",
+  "hdr": "workshop-light.hdr",
+  "source": "blender/workshop/bisque-workshop.blend",
+  "note": "Dry unglazed mineral body, with shared arc-length painting UV. Diffuse workshop light proxy is an art-direction approximation."
+}

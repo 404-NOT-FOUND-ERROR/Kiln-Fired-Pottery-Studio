@@ -14,3 +14,8 @@ Thumbs.db
 node_modules/
 qa-artifacts/
 *.blend1
+
+# Generated local logs and cleanup inventories
+server*.log
+cleanup-local*.json
+

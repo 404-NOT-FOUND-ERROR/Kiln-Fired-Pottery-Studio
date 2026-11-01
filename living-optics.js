@@ -58,13 +58,14 @@ export class LivingOptics {
     this.scene=new THREE.Scene();this.scene.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),this.material));
     this.camera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
   }
-  render(info,crop) {
+  render(info,crop,backdrop=null) {
     const {renderer,scene,camera,mesh}=this.world;
     const size=renderer.getDrawingBufferSize(new THREE.Vector2());
     if(this.target.width!==size.x||this.target.height!==size.y)this.target.setSize(size.x,size.y);
     const u=this.uniforms;
     u.pixel.value.set(1/size.x,1/size.y);u.near.value=camera.near;u.far.value=camera.far;
-    u.plate.value=scene.background;u.plateMatrix.value.copy(scene.background.matrix);
+    u.plate.value=backdrop||scene.background;
+    if(backdrop)u.plateMatrix.value.identity();else u.plateMatrix.value.copy(scene.background.matrix);
     u.lens.value=info.focalLength;u.fstop.value=info.fstop;u.cropWidth.value=crop.w/info.width;
     // Focus on the front shoulder of each form, including restored rotations.
     const bounds=mesh.geometry.boundingBox,dimensions=bounds.getSize(new THREE.Vector3());

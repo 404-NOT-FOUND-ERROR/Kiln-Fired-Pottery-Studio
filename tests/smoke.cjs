@@ -1,3 +1,4 @@
+const {prepareBlank,putOnShelf,completeFiring}=require('./workflow-helpers.cjs');
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || 'playwright');
 const fs = require('fs');
 const path = require('path');
@@ -5,27 +6,28 @@ const out = path.resolve(__dirname, '../qa-artifacts'); fs.mkdirSync(out,{recurs
 (async()=>{
  const browser = await chromium.launch({headless:true,channel:process.env.BROWSER_CHANNEL || (process.platform === 'win32' ? 'msedge' : undefined)});
  const context = await browser.newContext({viewport:{width:1440,height:1000},acceptDownloads:true});
- const page = await context.newPage(); const errors=[]; page.on('pageerror',e=>errors.push(e.message)); page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
- await page.goto('http://127.0.0.1:4173'); await page.locator('#introView canvas').waitFor();
+ const page = await context.newPage(); const errors=[]; page.on('dialog',dialog=>dialog.accept());
+  page.on('pageerror',e=>errors.push(e.message)); page.on('console',m=>{if(m.type()==='error')errors.push(m.text())});
+ await page.goto('http://127.0.0.1:4173'); await page.locator('.intro-cover').waitFor();
  await page.screenshot({path:path.join(out,'intro.png')});
- await page.click('#startExperience'); await page.click('#onboardingDismiss'); await page.click('#toPaint'); await page.click('#onboardingDismiss');
+ await page.click('#startExperience'); if(await page.locator('#onboardingDismiss').isVisible())await page.click('#onboardingDismiss'); await prepareBlank(page); if(await page.locator('#onboardingDismiss').isVisible())await page.click('#onboardingDismiss');
  await page.locator('[data-glaze="cobalt"]').click();await page.locator('#techniquePrimer [data-technique="dip"]').click();await page.locator('#dipDepth').fill('85'); await page.click('#applyDip');await page.click('#applyDip');await page.click('#applyDip');
  await page.locator('[data-glaze="copper"]').click(); await page.locator('#techniquePrimer [data-technique="pour"]').click();
  const box=await page.locator('#paintView canvas').boundingBox(); await page.mouse.click(box.x+box.width*.51,box.y+box.height*.38);
  await page.screenshot({path:path.join(out,'paint.png'),fullPage:true});
- await page.click('#toResult'); await page.click('#skipFiring'); await page.locator('#resultView canvas').waitFor(); await page.waitForTimeout(3000);
+ await page.click('#toResult'); await page.locator('#screen3.active').waitFor({timeout:30000});await completeFiring(page); await page.locator('#resultView canvas').waitFor(); await page.waitForTimeout(3000);
  await page.screenshot({path:path.join(out,'museum.png'),fullPage:true});
  for(const scene of ['living','art']) {await page.locator(`button[data-scene="${scene}"]`).click(); await page.waitForTimeout(400);await page.screenshot({path:path.join(out,scene+'.png'),fullPage:true});}
  await page.fill('#pieceName','青山入窑');
  let download=page.waitForEvent('download');await page.click('#exportPhoto'); await (await download).saveAs(path.join(out,'art-card.png'));
- await page.click('#save'); await page.waitForFunction(()=>document.querySelector('#save').textContent.includes('已收藏'));
+ await putOnShelf(page); await page.waitForFunction(()=>document.querySelector('#save').textContent.includes('已收藏'));
  await page.locator('[data-panel="learn"]').click(); await page.locator('[data-observe="before"]').click(); await page.screenshot({path:path.join(out,'before.png'),fullPage:true});
  await page.locator('[data-observe="alternate"]').click(); download=page.waitForEvent('download');await page.click('#exportComparison');await (await download).saveAs(path.join(out,'comparison.png'));
- await page.reload(); await page.getByRole('button',{name:'打开我的作品架 ↗'}).click(); await page.locator('.collection-item').click(); await page.waitForFunction(()=>document.querySelector('#pieceName').value==='青山入窑');
+ await page.reload();await page.click('#introCollection'); await page.locator('.collection-item[data-example="false"]').first().click(); await page.waitForFunction(()=>document.querySelector('#pieceName').value==='青山入窑');
  await page.screenshot({path:path.join(out,'restored.png'),fullPage:true});
  await page.setViewportSize({width:390,height:844}); await page.waitForTimeout(400); await page.screenshot({path:path.join(out,'mobile.png'),fullPage:true});
  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth); if(overflow)throw Error('Mobile horizontal overflow');
- await page.click('#restart'); await page.locator('#selectView canvas').waitFor(); await page.locator('[data-form="bowl"]').click(); await page.click('#toPaint'); await page.waitForTimeout(350);if(await page.locator('#onboardingDismiss').isVisible())await page.click('#onboardingDismiss');
- await page.locator('#techniquePrimer [data-technique="dip"]').click();await page.click('#applyDip');await page.click('#toResult'); await page.click('#skipFiring'); await page.waitForTimeout(2500); await page.screenshot({path:path.join(out,'mobile-bowl.png'),fullPage:true});
+ await page.click('#restart'); await page.locator('#selectView canvas').waitFor(); await page.locator('[data-preset="bowl"]').click(); await prepareBlank(page); await page.waitForTimeout(350);if(await page.locator('#onboardingDismiss').isVisible())await page.click('#onboardingDismiss');
+ await page.locator('#techniquePrimer [data-technique="dip"]').click();await page.click('#applyDip');await page.click('#toResult'); await page.locator('#screen3.active').waitFor({timeout:30000});await completeFiring(page); await page.waitForTimeout(2500); await page.screenshot({path:path.join(out,'mobile-bowl.png'),fullPage:true});
  console.log(JSON.stringify({errors,overflow,downloads:fs.readdirSync(out),title:await page.title()},null,2)); await browser.close(); if(errors.length)process.exitCode=1;
 })().catch(e=>{console.error(e);process.exit(1)});
